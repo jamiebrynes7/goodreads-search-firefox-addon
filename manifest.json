@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Goodreads Easy Search",
+    "description": "Easily search Goodreads with highlighted text anywhere!",
+    "version": "1.0",
+    "applications": {
+        "gecko": {
+           "id": "goodreads-easy-search@jamiebrynes.com"
+        }
+     },
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "permissions": [
+        "menus",
+        "tabs"
+    ]
+}
